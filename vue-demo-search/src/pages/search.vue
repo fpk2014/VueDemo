@@ -11,10 +11,7 @@ export default {
 }
 </script>
 
-<style>
-  body{
-    background: url('../assets/background.png');
-  }
+<style scoped>
   .search {
     text-align: center;
     margin-top: 12%;
