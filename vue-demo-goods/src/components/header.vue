@@ -1,7 +1,7 @@
 <template>
   <div class="head">
     <div class="header">
-       <h4 class="header-cont">主页</h4>
+       <div class="header-cont">主页</div>
     </div>
   </div>
 </template>
@@ -11,3 +11,13 @@
 
   }
 </script>
+
+<style scoped>
+.header {
+  text-align: center;
+  line-height: 2.5em;
+  vertical-align: middle;
+}
+</style>
+
+

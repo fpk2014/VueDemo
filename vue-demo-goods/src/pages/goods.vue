@@ -6,8 +6,9 @@
         <goods-list v-for="item in items"
               :title="item.title"
               :price="item.price"
-              :img="item.img"><</goods-list>
+              :img="item.img"></goods-list>
       </ul>
+      <div style="clear:both;"></div>
     </div>
     <common-footer></common-footer>
   </div>
@@ -35,3 +36,17 @@
     }
   }
 </script>
+
+<style scoped>
+  common-footer {
+    position: fixed;
+    bottom: 0;
+  }
+</style>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+</style>
